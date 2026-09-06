@@ -41,7 +41,7 @@
             <div class="w3-row cnt-ctr-sml w3-merriweather w3-card">
                 <div class="w3-container w3-col s5 w3-center" >
                     <div onclick="document.getElementById('modCtg').style.display='block'" ng-hide="ctgs.length<2">
-                        <h4 class="notSelTxt" style="color: {{cblu}};">{{txtCtg}}</h4>
+                        <h4 class="notSelTxt" ng-style="{'color': cblu}">{{txtCtg}}</h4>
                     </div>
 
 
@@ -49,7 +49,7 @@
                 </div>
                 <div class="w3-container w3-col s2 w3-center"><h4 style="color: #00000021;">|</h4></div>
                 <div class="w3-container w3-col s5 w3-center" onclick="document.getElementById('modSrt').style.display='block'">
-                    <h4 class="notSelTxt" style="color: {{cblu}};">{{txtSrt}}</h4>
+                    <h4 class="notSelTxt" ng-style="{'color': cblu}">{{txtSrt}}</h4>
                 </div>
             </div>
 
